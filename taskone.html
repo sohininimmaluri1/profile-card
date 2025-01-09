@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <style>
+ /* General Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Profile Card Styling */
+.profile-card {
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box; /* Include padding and border in width/height */
+  
+}
+
+/* Floated Image */
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius:35%;
+  float: left; /* Float the image */
+  margin-right: 20px; /* Space between image and text */
+  border: 3px solid #007bff;
+  box-sizing: border-box;
+  border: none;
+}
+
+/* Profile Info */
+.profile-info {
+  overflow: hidden; /* Ensure proper layout when using float */
+}
+
+.name {
+  font-size: 1.5em;
+  margin: 0;
+  position: relative;
+}
+
+/* Pseudo-element for decorative icon */
+.name::before {
+  content: "👩‍🎓"; /* Icon before the name */
+  color: #007bff;
+  font-size: 1.2em;
+  margin-right: 10px;
+}
+
+.bio {
+  margin: 10px 0 0;
+  color: #090808;
+  line-height: 1.5;
+}
+
+ 
+ </style>
+ 
+</head>
+<body>
+  <div class="profile-card">
+    <img src="ECE .png" alt="Profile Picture" class="profile-img" width="400">
+    <div class="profile-info">
+      <h2 class="name">Nimmaluri.Laxmi Sohini</h2>
+      <p clas="bio">Year:III B.Tech</p>
+      <p clas="bio">Branch:Electronics And Communication Engineering</p>
+      <p clas="bio">College:ISTS WOMENS ENGNEERING College</p>
+
+    </div>
+  </div>
+</body>
+</html>
